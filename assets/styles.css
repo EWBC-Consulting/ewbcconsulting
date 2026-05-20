@@ -298,9 +298,14 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .site-header,
-  .site-nav {
+  .site-header {
     flex-direction: column;
+    gap: 12px;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 12px;
   }
 
