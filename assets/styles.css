@@ -50,6 +50,7 @@ a {
 
 .site-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
@@ -304,6 +305,7 @@ h3 {
   }
 
   .site-nav {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
